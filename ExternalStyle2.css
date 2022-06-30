@@ -1,0 +1,55 @@
+
+A:link {color: black}
+A:visited, A:active {color: black}
+A:hover {text-decoration: overline; color: black}
+	
+Body {
+	background-color: tan;
+	font-family: cambria;
+	color: gray	
+	}
+
+H1 {font-size: 50pt; text-align: center}
+H2 {font-size: 25pt; text-align: center}
+H3 {font-size: 10pt; text-align: center}
+H4 {text-align: center}
+H5 {font-size: 15pt}
+
+P {font-size: 10pt; font-family: monospace}
+/*contact form*/
+Table {
+	width: 350px; 
+	font-family: monospace; 
+	color: black; 
+	background-color: white;
+	margin: .8em;
+	border-color: black}
+
+
+Form {
+	font-family: monospace; 
+	text-align: center; 
+	color: black; 
+	background-color: white}
+
+@media screen and (max-width:300px){
+	h1 {
+		font-size: 18pt;
+	}
+	h2{ 
+		font-size: 6pt;
+	}
+	h3{ 
+		font-size: 5pt;
+	}
+	h5{
+		font-size: 9pt;
+	}
+	P{
+		font-size: 8pt
+	}
+	img{
+		width: 70%;
+	}
+
+}
